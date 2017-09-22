@@ -1,0 +1,25 @@
+main{
+  position: relative;
+}
+
+#container{
+  position: absolute;
+  top: 50px;
+}
+
+#now_playing{
+  left: 4%;
+}
+
+#schedule{
+  position: relative;
+  top: 60px;
+  background-image: url('../img/show_schedule.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: left;
+
+  width: 60%;
+  height: 450px;
+  margin: 0px;
+}
