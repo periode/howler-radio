@@ -2,7 +2,7 @@ var socket = io.connect('http://104.236.239.60:8080');
 
 socket.on('connect', function(){
   console.log('connected to the chat server');
-  document.getElementById("chat_window").innerHTML = "<span style='color:grey; font-size: 0.8em;'>...you're connected. say hi! (displaying the last few messages)</span>";
+  document.getElementById("chat_window").innerHTML = "<span style='color:white; font-size: 0.8em;'>...you're connected. be nice and respectful! (displaying the last few messages)</span>";
 });
 
 socket.on('update-users', function(data){
