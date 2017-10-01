@@ -4,7 +4,7 @@ var path = require('path');
 
 
 var app = new express();
-app.set('port', 8088);
+app.set('port', 8080);
 
 app.use(express.static(path.join(__dirname,'/public_howler')));
 
@@ -94,12 +94,15 @@ io.on('connection', function(socket){
     }
 
     if(!is_chat_enabled){
-      data.message = "sorry, the chat is currently disabled.";
-      data.username = "robot";
+      data.message = "i'm afraid i can't do that.";
+      data.username = "hal";
+      socket.emit('update-chat', data);
+    }else{
+      //send it to everyone
+      io.emit('update-chat', data);
     }
 
-    //send it to everyone
-    io.emit('update-chat', data);
+    
   });
 
   //decrement users on disconnect
@@ -107,7 +110,7 @@ io.on('connection', function(socket){
     if(connected_users > 1)
       connected_users--;
 
-    io.emit('update-status', {users:connected_users, status:is_chat_enabled});
+    io.emit('update-status', {users:connected_users, enabled:is_chat_enabled});
   });
 
 
