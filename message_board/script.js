@@ -1,5 +1,5 @@
-// var socket = io.connect('http://104.236.239.60:8080');
-var socket = io.connect('http://127.0.0.1:8088');
+var socket = io.connect('http://104.236.239.60:8080');
+// var socket = io.connect('http://127.0.0.1:8088');
 
 socket.on('connect', function(){
   console.log('connected to howler server');

@@ -1,5 +1,5 @@
-// var socket = io.connect('http://104.236.239.60:8080');
-var socket = io.connect('http://localhost:8088');
+var socket = io.connect('http://104.236.239.60:8080');
+// var socket = io.connect('http://localhost:8088');
 var welcome_message = "<span style='color:grey;'>...you're connected. be nice and respectful!</span>";
 
 function initChat(){
