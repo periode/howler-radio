@@ -1,4 +1,4 @@
-var socket = io.connect('http://104.236.239.60:8080');
+// var socket = io.connect('http://104.236.239.60:8080');
 
 const PLAY_IMG = 'img/play_marble.png';
 const PAUSE_IMG = 'img/pause_marble.png';
@@ -8,6 +8,10 @@ const PREFIX = '<span id="pulsate">NOW PLAYING</span>';
 var show = '';
 var additional = '';
 var isBroadcasting = false;
+
+socket.on('connect', function(){
+  console.log('connected to the chat server');
+});
 
 socket.on('update-message', function(data){
   if(data.show == 'MUSIC FROM THE CLOUD'){

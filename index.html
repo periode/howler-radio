@@ -92,12 +92,14 @@
         <div id="whole_chat">
           <span class="chat_legend chat_title">chat</span><span class="chat_users" id="connected_users">(0)</span><br>
           <div id="chat_window">
+            <button id="join_button" onclick="initChat()">join</button>
           </div>
           <br>
-          <input class="chat_input" type="text" id="username" placeholder="who you are"></input><br><br />
+          <input class="chat_input" type="text" id="username" placeholder="who you are" disabled></input><br><br />
           <br>
-          <input class="chat_input" type="text" id="message" placeholder="what you say"></input><br>
-          <button id="send_button" onclick="sendMessage()">send</button>
+          <input class="chat_input" type="text" id="message" placeholder="what you say" disabled></input><br>
+          <button id="send_button" onclick="sendMessage()" disabled>send</button>
+
         </div>
         <br>
 
