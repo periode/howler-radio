@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Howler Radio - Message</title>
+    <meta charset="utf-8" />
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body onload="init()">
+    <header>
+      <h1>howler radio vip room</h1>
+      <h1 id="chat_status">CHAT ENABLED</h1>
+    </header>
+
+  <div id="container">
+    <div id="message_board">
+      <h2>AT THE BEGINNING OF YOUR SHOW</h2>
+      <input id="show" type="text" placeholder="show name"></input><br>
+      <input id="additional" type="text" placeholder="additional info"></input><br>
+      <button onclick="updateMessage()" value="update message">update the website message</button>
+      <!-- <hr> -->
+      <h2>AT THE END OF YOUR SHOW</h2>
+      <button onclick="resetMessage()" value="">reset to default message</button>
+      <p>
+        <br />
+        <br />
+        <br />
+        also did you archive your show?
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        also did you rename your archived show?<br />
+        <br />
+        <br />
+        <br />
+        <br />
+        thanks <3
+      </p>
+    </div>
+    <div id="chat_control">
+      <h2>ERASING THE CHAT CONTENTS</h2>
+      <p>
+        Clicking on that button below <b>will delete all current messages in the chat</b>. Use this when you want to get rid of racial/sexist/ableist slurs on the chat, but there doesn't seem to be current activity.
+      </p>
+      <button onclick="eraseChat()">erase chat</button>
+      <!-- <hr /> -->
+      <h2>DISABLING THE CHAT</h2>
+      <p>
+        If it looks like there are currently people on the chat that are saying stupid things that hurt other people just for the sake of feeling better about themselves, then you can temporarily disable the chat. <b>Disabling the chat means that no one can post or see anything.</b>
+      </p>
+      <button onclick="disableChat()">disable chat</button>
+      <h2>ENABLING THE CHAT</h2>
+      <p>
+        Once things seem to have calmed down, then you can re-enable it here. <b>The last chat messages will still be there, so you might want to delete them before hand!</b>
+      </p>
+      <button onclick="enableChat()">enable chat</button>
+    </div>
+
+  </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+/*---------------------------------------------*/
+/*---------------------GENERAL-----------------*/
+/*---------------------------------------------*/
+
+body {
+  font-family: 'Source Sans Pro', serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  /*padding-top: 2%;*/
+  width: 100%;
+  text-align: center;
+}
+
+#message_board{
+  width: 45%;
+  padding: 1%;
+  float: left;
+}
+
+#chat_control{
+  width: 45%;
+  padding: 1%;
+  float: right;
+}
+
+#container{
+  width: 92%;
+  height: auto;
+  padding-left: 4%;
+  margin-right: 4%;
+}
+
+header {
+  font-size: 1.8em;
+  padding-left:5%;
+  padding-right:5%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  /*height: 80px;*/
+}
+
+h1{
+  font-size: 1em;
+  width: 40%;
+  display: inline-block;
+}
+
+#chat_status{
+  text-align: center;
+  color: white;
+  background-color: rgb(40, 150, 0);
+  float: right;
+  /*width: 40%;*/
+}
+
+p {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 0px;
+}
+
+a{
+  margin: auto;
+  color: #000000;
+
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+}
+
+input{
+  border: 2px solid rgb(70, 70, 70);
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  color: black;
+  width: 100%;
+}
+
+button{
+  font-size: 1.2em;
+  border-radius: 4px;
+  background-color: rgb(105, 105, 105);
+  color: white;
+  border-color: black;
+  margin-top: 5px;
+  width: 100%;
+}
+
+button:hover{
+  background-color: rgb(145, 145, 145);
+}
+
+button:active{
+  background-color: rgb(185, 185, 185);
+}
+
+a:hover{
+  background-color: #000000;
+  color: white;
+}
+
+hr{
+  border: 1px solid rgb(200, 200, 200);
+  margin: 30px;
+}
+
+h2{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
