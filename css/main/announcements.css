@@ -21,7 +21,9 @@
 
 #announcement{
   position: absolute;
-  background-color: rgb(15, 15, 15);
+  /*background-color: rgb(15, 15, 15);*/
+  background-color: rgb(30, 30, 30);
+  color: rgb(5, 5, 5);
   top: 0;
   right: 0;
   width: 29%;
@@ -73,7 +75,7 @@
   }
 
   #logo_container{
-    background-image: url('../img/howler_logo_player.png');
+    background-image: url('../../img/howler_logo_player.png');
     width: 15%;
   }
 
@@ -136,7 +138,6 @@
   }
 
   #now_playing {
-    color: #000000;
     padding-top: 5px;
     margin-bottom: 4px;
     text-align: left;
@@ -149,6 +150,7 @@
     top: 0;
     left: 0;
     float: left;
+    color: white;
   }
 
   #playing_main, #playing_secondary{
@@ -167,7 +169,6 @@
       margin-bottom: 2%;
 
       overflow: hidden;
-      border-top: 2px solid #000000;
       float: left;
   }
 
