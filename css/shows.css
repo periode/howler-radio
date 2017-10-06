@@ -30,6 +30,7 @@ main{
   color: white;
   cursor: pointer;
   border: 2px solid rgb(45, 45, 45);
+  background-color: rgb(25, 25, 25);
 
   transition: border-color 0.1s ease-in-out;
   -webkit-transition: border-color 0.1s ease-in-out;
@@ -48,21 +49,21 @@ main{
   -moz-transition: opacity 0.4s ease-in-out;
 }
 
-#selected{
-  border: 2px solid #000000;
-  color: white;
-  background-color: #000000;
-}
-
 hr{
   float: left;
   width: 100%;
 }
 
 #not-selected{
-  /*border: 0px solid white;*/
-  color: #000000;
-  background-color: white;
+  color: white;
+  background-color: rgb(25, 25, 25);
+}
+
+
+#selected{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  color: black;
 }
 
 

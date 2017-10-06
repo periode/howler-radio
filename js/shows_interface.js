@@ -35,7 +35,7 @@ function init(){
 
     var show_holder = document.getElementById('show_list');
     for(var i = 0; i < schedule.shows.length; i++){
-      var s = '<div class="show_item" onclick="selectNewShow(\''+schedule.shows[i].link+'\')">'+schedule.shows[i].name+'</div>';
+      var s = '<div class="show_item" onclick="selectNewShow(\''+schedule.shows[i].image+'\')">'+schedule.shows[i].name+'</div>';
 
       show_holder.innerHTML+=s;
     }
@@ -44,7 +44,7 @@ function init(){
       var show = window.location.href.toString().substring(window.location.href.toString().indexOf('?') + '?show='.length, window.location.href.toString().length);
 
       for(i = 0; i < schedule.shows.length; i++){
-        if(schedule.shows[i].link == show){
+        if(schedule.shows[i].image == show){
           console.log('found show, replacing...');
           replaceCurrentShow(schedule.shows[i]);
           break;
@@ -78,7 +78,7 @@ function init(){
 // goes through all the shows and finds the name of the one we clicked on
 function selectNewShow(show_name){
   for(var i = 0; i < schedule.shows.length; i++){
-    if(schedule.shows[i].link == show_name){
+    if(schedule.shows[i].image == show_name){
       replaceCurrentShow(schedule.shows[i]);
       break;
     }
@@ -90,11 +90,11 @@ function selectNewShow(show_name){
 // sets the new values
 function replaceCurrentShow(new_show){
   show_title = new_show.name.toUpperCase();
-  show_image =  "../img/"+new_show.image;
+  show_image =  "../img/"+new_show.image+'.png';
   show_dj = new_show.dj.toUpperCase();
   show_tags = new_show.tags;
   show_description =  new_show.description;
-  show_time = new_show.day.toUpperCase() + ' - ' +new_show.time;
+  show_time = new_show.time;
   show_archive = new_show.archive;
 
   updateElements();

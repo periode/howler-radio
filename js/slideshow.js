@@ -46,26 +46,25 @@ function initSlideshow(){
 }
 
 function changePoster(){
-  // legend_name.innerHTML = '<a href="shows.html?show='+schedule.shows[current_index].link+'>'+schedule.shows[current_index].name.toUpperCase()+'</a>';
   legend_name.innerText = schedule.shows[current_index].name.toUpperCase();
-  legend_name.setAttribute('href', 'shows.html?show='+schedule.shows[current_index].link);
+  legend_name.setAttribute('href', 'shows.html?show='+schedule.shows[current_index].image);
   legend_dj.innerText = schedule.shows[current_index].dj.toUpperCase();
-  legend_day.innerText = schedule.shows[current_index].day.toUpperCase();
-  legend_time.innerText = schedule.shows[current_index].time;
+  legend_day.innerText = schedule.shows[current_index].time.substr(0, schedule.shows[current_index].time.indexOf('-')).toUpperCase();
+  legend_time.innerText = schedule.shows[current_index].time.slice(schedule.shows[current_index].time.indexOf('-')+2).toUpperCase();
 
   // console.log(schedule.shows[current_index]);
 
-  current_image = schedule.shows[current_index].image;
+  current_image = schedule.shows[current_index].image != 'YOURIMAGEHERE' ? schedule.shows[current_index].image : 'slideshow_bg';
 
   if(holder_a.style.opacity == 1){
     holder_a.style.opacity = 0;
 
-    holder_b.setAttribute('style', 'background-image: url("img/'+current_image+'")');
+    holder_b.setAttribute('style', 'background-image: url("img/'+current_image+'.png")');
     holder_b.style.opacity = 1;
   }else{
     holder_b.style.opacity = 0;
 
-    holder_a.setAttribute('style', 'background-image: url("img/'+current_image+'")');
+    holder_a.setAttribute('style', 'background-image: url("img/'+current_image+'.png")');
     holder_a.style.opacity = 1;
   }
 

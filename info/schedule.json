@@ -1,256 +1,193 @@
 {
   "shows":[
     {
-    "name":"Cross-Section",
-    "link":"crosssection",
-    "dj":"Alia Alharmi and Jacinta Hu",
-    "day":"sunday",
-    "time":"18:00-19:00",
-    "image":"cross_section.png",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"El Pregón",
-    "link":"elpregon",
-    "dj": "Sebastian",
-    "day":"sunday",
-    "time": "19:30-23:00",
-    "image":"elpregon.jpg",
-    "tags":["spanish","latinoamerica", "español", "#saynotothewall"],
-    "description":"<u>Pregón:</u> A proclamation made in a public space about something it is convenient for everyone to know.<br> <br>El Pregón uses music to explore different aspects of life in the Spanish-speaking. Every week we choose an organizing principle — a social issue, a country, an event — and use music as an excuse to talk about it.",
-    "archive":"https://soundcloud.com/elpregon_ad"
-  },
-  {
-    "name":"Sasa",
-    "link":"sasa",
-    "dj":"Isabelle Galet-Lalande",
-    "day":"sunday",
-    "time":"21:00-22:00",
-    "image":"sasa.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"Research Paper Radio",
-    "link":"rpr",
-    "dj":"Bryan Waterman",
-    "day":"Sunday",
-    "time":"22:00-00:00",
-    "image":"research_paper_radio.png",
-    "tags":["freeform", "constraint-based", "20th-century", "21st-century", "recorded sound", "nerdy", "popular", "unpopular"],
-    "description":"Research Paper Radio contains multitudes: from 1920s showtunes and Dada sound collage to 1980s synthpop and international new wave to 2016's new indie releases, sometimes in a single set. Tracks occasionally played in alphabetical order. Never the same show twice.<br><br><u>Disclaimer:</u> No actual research papers have been harmed or even discussed in the making of this show, but the music's so good you might find yourself itching to write about it.",
-    "archive":""
-  },
-  {
-    "name":"Glue Banta's Very Regular Program of...",
-    "link":"gluebanta",
-    "dj":"Jonny Farrow",
-    "day":"Monday",
-    "time":"14:00-16:00",
-    "image":"gluebanta.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"What's Good",
-    "link":"whatsgood",
-    "dj":"Scout Satterfield",
-    "day":"Monday",
-    "time":"19:00-20:00",
-    "image":"whatsgood.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"G(&)T",
-    "link":"gt",
-    "dj":"Liza Tait-Bailey and Finn Murray-Jones",
-    "day":"Monday",
-    "time":"20:00-21:00",
-    "image":"gt.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"AlterLatina",
-    "link":"alterlatina",
-    "dj":"Natalia Cruz",
-    "day":"Monday",
-    "time":"21:00-00:00",
-    "image":"alterlatina.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"Dynamic Duo",
-    "link":"dynamicduo",
-    "dj":"Chaeri Lee and Yi Yi Yeap",
-    "day":"Monday (even)",
-    "time":"22:00-23:00",
-    "image":"dynamicduo.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"nightride",
-    "link":"nightride",
-    "dj":"Connor Pearce",
-    "day":"Monday (odds)",
-    "time":"22:00-23:00",
-    "image":"nightride.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"Obvious Strategies",
-    "link":"obvious_strategies",
-    "dj":"Doug Choi",
-    "day":"Tuesday",
-    "time":"18:00-19:00",
-    "image":"obvious_strategies.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"Kickin' it Country",
-    "link":"kickinitcountry",
-    "dj":"Emma Kay Tocci",
-    "day":"Tuesday",
-    "time":"19:00-20:00",
-    "image":"kickinitcountry.jpg",
-    "tags":["country","new country", "united states"],
-    "description":"An hour of new country, every other week. Keep up your swinging and line dancing skills twice a month listening to the new country hits from the States!",
-    "archive":""
-  },
-  {
-    "name":"Oldies But Goodies",
-    "link":"oldiesbutgoodies",
-    "dj":"Eduardo Campillo",
-    "day":"Tuesday",
-    "time":"20:00-21:00",
-    "image":"obg.jpg",
-    "tags":[],
-    "description":"Oldies but Goodies is — as the title suggests — a show devoted to music in English that we youngsters would call old. Every week there will be a one-hour session of songs that your parents probably jammed to and so you should as well. From Billie Holiday to The Beatles, there will be amazing music across all decades and genres.",
-    "archive":""
-  },
-  {
-    "name":"A Room Full of Teeth",
-    "link":"aroomfullofteeth",
-    "dj":"Laura Watje",
-    "day":"Tuesday",
-    "time":"21:00-22:00",
-    "image":"roomfullofteeth.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"Regular Expressions",
-    "link":"regex",
-    "dj":"Période",
-    "day":"Tuesday",
-    "time":"22:00-00:00",
-    "image":"regular_expressions.png",
-    "tags": ["ambient", "electronic", "experimental", "loops", "anti edm", "anti spotify"],
-    "description":"a weekly broadcast of machine-enhanced music by machine voices.<br><br>tune in for an curated selection of music based on variations in voltage current, from oscillating ambient textures to japanese synthesizers, via sequenced patterns and tape delays.<br><br>delivered with love, straight from the cloud.",
-    "archive":"http://mixcloud.com/periode"
-  },
-  {
-    "name":"Warsheh",
-    "link":"warsheh",
-    "dj":"Jood Shqern",
-    "day":"Wednesday",
-    "time":"18:00-19:00",
-    "image":"warsheh.jpg",
-    "tags":["arabic","culture", "language", "arab world"],
-    "description":"(def.): A place of collaboration; a space of creation. Warsheh is an attempt to bring together all the elements of Arab culture, through music and dialogue. Our show is fluid by nature, as each episode will focus on different themes of Arab culture. We will explore the cultural, social, political, economic, emotional, and psychological nuances of the Arab world through its artistic productions. Our show will be mainly communicated in the Arabic language -we encourage you to listen in, even if you don’t speak it.",
-    "archive":""
-  },
-  {
-    "name":"Pwee, JJ & More",
-    "link":"pweejjmore",
-    "dj":"James Gardner and Patrick Wee",
-    "day":"Wednesday",
-    "time":"20:30-22:00",
-    "image":"pwee_jj_more.png",
-    "tags":["exploration", "travel", "chillstep", "electro-swing"],
-    "description":"Pwee, JJ, & More is an exploration based radio show, taking you on a journey through a different country, time, or situation every week. Each show will feature a different special guest to walk you through a 2-day visit to their respective homes - describing what to do, not do and what crazy sh*t they've seen happen. Intermixed with place-related music, chill beats and talk back on how we might see these different places here, on campus, Pwee, JJ, & more, is excited to have your ear on Howler Radio. P.S. keep an eye out for our weekly travel guides!",
-    "archive":""
-  },
-  {
-    "name":"Red Light Music",
-    "link":"redlightmusic",
-    "dj":"People Machine",
-    "day":"Wednesday (even)",
-    "time":"22:00-23:00",
-    "image":"redlightmusic.jpg",
-    "tags":["electronic", "club", "experimental", "strobe"],
-    "description":"Red Light Music is a fortnightly exploration/curation of electronic-based (but not exclusively so) music. Each episode's mix is guided by a different musical theme, but all are united by sexy synths, seedy basslines, and stroboscopic intensity. This is music to love and hate to, cook or make love to, grind or gently touch to, and always move to.",
-    "archive":"https://www.mixcloud.com/dancingwithdionysus/"
-  },
-  {
-    "name":"Big Chunes",
-    "link":"bigchunes",
-    "dj":"Big Chunes DJ",
-    "day":"Wednesday (odds)",
-    "time":"22:00-23:00",
-    "image":"bigchunes.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"The STEMinist",
-    "link":"thesteminist",
-    "dj":"Ria Golovakova and Lama Ahmad",
-    "day":"saturday (odds)",
-    "time":"19:00-20:00",
-    "image":"steminist.png",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },{
-    "name":"Music (R)Evolution",
-    "link":"musicrevolution",
-    "dj":"--",
-    "day":"saturday",
-    "time":"20:00-21:00",
-    "image":"musicrevolution.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
-  },
-  {
-    "name":"40 Hour Blues",
-    "link":"40hourblues",
-    "dj":"Sam Ball and Ahmad Yacout",
-    "day":"saturday",
-    "time":"23:00-00:00",
-    "image":"40hourblues.jpg",
-    "tags":[],
-    "description":"Music to cry to from across the US. 40 Hour Blues brings together a continuum of USAmerican music, focusing on blues, early jazz, and hip hop. Special emphasis on music from the Southern US that sops up the pain in ur soul. Occasional guests will discuss lineage of genre, their favorite tracks, and why they want to cry on that particular Saturday night.",
-    "archive":""
-  },
-  {
-    "name":"Cosmos With Carl Sagan",
-    "link":"cosmos",
-    "dj":"Kai-Erik Jensen and Davis Teague",
-    "day":"saturday",
-    "time":"00:00-01:00",
-    "image":"cosmos.jpg",
-    "tags":[],
-    "description":"",
-    "archive":""
+      "name": "Con Cristal",
+      "image": "con_cristal",
+      "dj": "cristal",
+      "tags": ["electronica","pop", "funk", "jazz"],
+      "description": "Con Cristal is a weekly playlist curation podcast with light commentary. Themes change every week, funky goodness is usually present.",
+      "time": "SUNDAY - 19:00 - 20:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Cult Records",
+      "image": "YOURIMAGEHERE",
+      "dj": "",
+      "tags": ["indie","rock", "pop"],
+      "description": "Proof that alternative rock didn't die after 2008.",
+      "time": "day - 20:00 - 21:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Big Chunes",
+      "image": "big_chunes",
+      "dj": "",
+      "tags": ["dancehall","reggae", "banter"],
+      "description": "from legends like shabba and marley to kartel and aidonia, dese chunes will mek yuh batty shake and yuh hip dem rotate. come hol' a vibes cause is a mad bombocla ting. free worl' boss. bun babylon. (note: to learn what the above means, just chune in).",
+      "time": "SUNDAY - 21:00 - 22:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Research Paper Radio",
+      "image": "research_paper_radio",
+      "dj": "bryan waterman",
+      "tags": ["freeform", "constraint-based", "20th-century", "21st-century", "recorded sound", "nerdy", "popular", "unpopular"],
+      "description": "Research Paper Radio contains multitudes: from 1920s showtunes and Dada sound collage to 1980s synthpop and international new wave to 2016's new indie releases, sometimes in a single set. Tracks occasionally played in alphabetical order. Never the same show twice.<br><br><u>Disclaimer:</u> No actual research papers have been harmed or even discussed in the making of this show, but the music's so good you might find yourself itching to write about it.",
+      "time": "SUNDAY - 22:00 - 00:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Tea with Mr. T",
+      "image": "tea_with_mr_t",
+      "dj": "Mr. T",
+      "tags": ["funk","soul", "neo-soul", "rnb"],
+      "description": "Tea with Mr. T brings you the latest and greatest in Jazz, Funk, Hip-Hip, R&B, Neo-Soul, and Oldies. Over tea, listeners can vibe and kick it with Mr. T, while conversing about the happenings of everyday life. Each show will feature a Tea of the Week, and possibly a guest personality. Just like having a cup of tea, you should feel better after listening to this show. Issa Vibe you don’t want to miss.",
+      "time": "MONDAY - 19:00 - 20:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "what's haneping?",
+      "image": "whats_haneping",
+      "dj": "dj flowers",
+      "tags": ["original pinoy music", "tagalog", "fresh jamz", "sometimes in english"],
+      "description": "The stereotype that Filipinos can sing, but taken to its extreme. 100% Filipino music, 100% DJ Flowers super excited to share it with you. Come for weekly (somewhat) themed shows and some tidbits of the Filipino music scene, stay for the inspiration to check out your own local music scene.",
+      "time": "MONDAY - 20:00 - 22:00",
+      "archive": "http://mixcloud.com/whats_haneping"
+    },
+    {
+      "name": "Vibe Radio",
+      "image": "YOURIMAGEHERE",
+      "dj": "",
+      "tags": ["chillpop","lofi", "v a p o r"],
+      "description": "Vibe radio is a bi weekly Chillhop and Lo-Fi hip hop music radio that takes place on Mondays from 10:00 PM to 11:00 PM.  The music selection and is carefully crafted to help create a sense of pure chill and serenity. Chill hop often blends jazz elements and samples with hip hop beats and electronic music. Lofi Hip-Hop is characterized by the high-utilization of elements such as introspection and seeks to engage with elements of human emotion. Elements such as high distortion as well as mellow sounds are more prominent features of any lofi hip-hop soundtrack.This music selection is tailored for an Intense study session or for when you need to escape the stress of work. All these great vibes are brought to you by the Salon SIG!!",
+      "time": "MONDAY - 22:00 - 23:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "They dont't call me, Shaff",
+      "image": "they_dont_call_me_shaff",
+      "dj": "shaff",
+      "tags": ["intranquility","despacito", "fado", "all good"],
+      "description": "Music from the lusophone world. Occasional Portuguese poetry readings. Talking about physics and the state of Kentucky. Might throw in some reggaeton if the vibe is right. ",
+      "time": "MONDAY - 23:00AM - 00:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Politically Screwed",
+      "image": "politically_screwed",
+      "dj": "áron the braun & jhamal the white",
+      "tags": ["talk radio'","bad jokes", "majors", "academics", "varied music", "FoS", "Shut up Kris"],
+      "description": "The revival of Majorly Screwed, the rambly talk-show about Majors at NYUAD, Politically Screwed aims to ramble more towards the topics of politics, both world- and campus- along with our unique taste in music. Your hosts are Jhamal the White and Áron the Braun.",
+      "time": "TUESDAY - 20:00 - 21:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "regular expressions",
+      "image": "regular_expressions",
+      "dj": "période",
+      "tags": ["various","memory", "experimental", "ambient"],
+      "description": "a weekly broadcast of human music by machine voices.\n\ntune in for an algorithmically curated selection of songs for imaginary spaces, from oscillating ambient textures to thumping acid house -straight from the cloud.",
+      "time": "TUESDAY - 21:00 - 23:00",
+      "archive": "http://mixcloud.com/periode"
+    },
+    {
+      "name": "On Another Note",
+      "image": "on_another_note",
+      "dj": "max & finn",
+      "tags": ["disco","eurotrash", "anthropology", "knowledge"],
+      "description": "Why did Disco music die? How did the Eurovision Song Contest pave the way for the European Union? What’s the beef between Taylor Swift and Katy Perry? Every week, over-ambitious and under-qualified part-time ethnomusicologists Max & Finn spend an hour dissecting the music of an individual genre or decade, playing songs you probably haven’t heard before, but definitely should have!",
+      "time": "TUESDAY - 23:00 - 00:00",
+      "archive": "http://mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Repetitive Stress",
+      "image": "repetitive_stress",
+      "dj": "glue banta",
+      "tags": ["experimental","vinyl", "freeform academia"],
+      "description": "Your weekly dose of drone, doom, space, and the angular (possibly annoying) electronix. Jonny Farrow is your host.",
+      "time": "WEDNESDAY - 14:00 - 15:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Dirbakeh",
+      "image": "dirbakeh",
+      "dj": "",
+      "tags": ["arab","levant", "gulf", "regional music"],
+      "description": "Dirbakeh is here to give the audience a sense of the Middle-Eastern culture through music. We plan on introducing Arab musicians and singers, telling their stories, and playing their songs. We hope that through this show we will be able to feed some people's curiosity and help others that are already familiar with Middle-Eastern culture to connect more deeply with it.",
+      "time": "WEDNESDAY - 19:00 - 20:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Basik Techno Experience",
+      "image": "basik_techno_experience",
+      "dj": "roberto",
+      "tags": ["techno","edm", "electronica", "house"],
+      "description": "I want you to have the best study session of your life. Tune in to experience the best tracks currently rocking underground clubs in Berlin, Detroit and Chicago. Perfect vibes to study in the library with headphones, or if you feel like dancing, dim the lights and raise the speakers. I want to show people the inner workings of underground EDM. Time to bury Guetta and Avicii. Underground is in the house! All the shows will be remixed live, no pre-recordings and no Spotify playlists. This is the real deal.",
+      "time": "WEDNESDAY - 20:00 - 22:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "red light music",
+      "image": "red_light_music",
+      "dj": "people machine",
+      "tags": ["electronic", "club", "experimental", "strobe"],
+      "description": "Red light music is a bi-weekly exploration/curation of electronic-based music. Each episode's mix is guided by a different musical or personal theme, but all are united by sexy synths, seedy basslines, and stroboscopic intensity. This is music to love and hate to, cook or make love to, grind or gently touch to, and always move to.",
+      "time": "WEDNESDAY - 22:00 - 00:00",
+      "archive": "https://www.mixcloud.com/dancingwithdionysus/"
+    },
+    {
+      "name": "Things my grandfather told me",
+      "image": "things_my_grandfather_told_me",
+      "dj": "",
+      "tags": ["story","tradition", "heritage", "oral"],
+      "description": "Many of us remember stories our grandparents tell us when we are little, but oftentimes it is only when we are older that we understand the content of these stories fully. Episodes center around a theme, such as World War II or childhood, with perspectives from the grandparents of NYUAD students.",
+      "time": "THURSDAY - 17:00 - 18:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Music for Space Hoppers",
+      "image": "music_for_space_hoppers",
+      "dj": "bernie arthur",
+      "tags": ["great","quality", "best of howler", "space"],
+      "description": "Bernie Arthur brings you an hour of upbeat, Eclectic tunes from all music genres with some smooth, cool rest bites in between. Bernie also showcases new artists, some poetry, special guests and the occasional theme show.",
+      "time": "THURSDAY - 19:00 - 20:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Brown Town",
+      "image": "brown_town",
+      "dj": "",
+      "tags": ["indian","pakistan", "subcontinent", "medley"],
+      "description": "Ever wondered what the point of Hookah Bar even is? Want to serenade a south asian beauty but dont know the right words to say? Join us as we give you the best and worst from the subcontinent, with nothing from the middle.",
+      "time": "FRIDAY - 18:00 - 20:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Bentertainment Radio",
+      "image": "bentertainment_radio",
+      "dj": "ben",
+      "tags": ["v a p o r","城市", "talk", "win XP"],
+      "description": "The spiritual successor to Ben’s high school vlog (which died in infamy), Bentertainment centers around weekly themed episodes and music, a vaporwave aesthetic, group conversations, and other assorted rambling.",
+      "time": "THURSDAY - 21:00 - 22:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "Afro Radio",
+      "image": "afro_radio",
+      "dj": "",
+      "tags": ["afro","world"],
+      "description": "A one-hour weekly show, theme-oriented with little (optional) reportages on Africa-related issues, a panel of guests once in a while and with Afro music from all genres and from all corners of the world.",
+      "time": "SATURDAY - 20:00 - 21:00",
+      "archive": "http://www.mixcloud.com/Howler_Radio"
+    },
+    {
+      "name": "pensées et palabres",
+      "image": "pensees_et_palabres",
+      "dj": "yero & ifran",
+      "tags": ["francophone","talk", "politics"],
+      "description": "Pensées et Palabres! Howler Radio’s first ever Francophone radio show is underway and reserves you innovative programs, ideal for a casual Saturday night listen and why not, brush up on your rusty French a little bit. Debates on hot topics, laughs, African news, sports, reportages on life at NYUAD, musical re-exploration of past and present styles and literary discussions...Pensées et Palabres’ hosts are brewing a show that has got it all, just for you!",
+      "time": "SATURDAY - 21:00 - 22:00",
+      "archive": ""
     }
   ]
 }
