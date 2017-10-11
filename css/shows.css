@@ -265,4 +265,10 @@ hr{
     font-size: 0.7em;
     border-width: 0px;
   }
+
+
+  /*DO NOT SHOW ANNOUNCEMENTS*/
+  #announcement{
+    display: none;
+  }
 }

@@ -135,6 +135,7 @@
   #banner{
     height: 84px;
     border: none;
+    padding-top: 0;
   }
 
   #now_playing {

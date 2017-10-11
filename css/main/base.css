@@ -127,13 +127,25 @@ hr{
 }
 
 @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 580px) and (orientation : portrait) {
+
  #links_justify{
-   font-size: 1.3em;
+   font-size: 1.1em;
+   display: inline;
+   margin: 0;
  }
 
  #logo_container{
-   margin-left: 1%;
+   left: 1%;
    width: 27%;
+ }
+
+ #play-img{
+   position: absolute;
+   right: 5%;
+   top: 5px;
+   width: 13%;
+   max-width: 25px;
+   height: 35px;
  }
 }
 
