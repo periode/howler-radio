@@ -11,6 +11,7 @@ var isBroadcasting = false;
 
 socket.on('connect', function(){
   console.log('connected to the chat server');
+  initChat()
 });
 
 socket.on('update-message', function(data){

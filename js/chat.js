@@ -3,7 +3,6 @@ var socket = io.connect('http://104.236.239.60:8080');
 var welcome_message = "<span style='color:grey;'>...you're connected. be nice and respectful!</span>";
 
 function initChat(){
-  document.getElementById('join_button').style.display = "none";
   document.getElementById('username').removeAttribute("disabled");
   document.getElementById('message').removeAttribute("disabled");
   document.getElementById('send_button').removeAttribute("disabled");
