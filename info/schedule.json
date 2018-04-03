@@ -1,24 +1,6 @@
 {
   "shows":[
     {
-      "name": "Con Cristal",
-      "image": "con_cristal",
-      "dj": "cristal",
-      "tags": ["electronica","pop", "funk", "jazz"],
-      "description": "Con Cristal is a weekly playlist curation podcast with light commentary. Themes change every week, funky goodness is usually present.",
-      "time": "SUNDAY - 19:00 - 20:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
-      "name": "Cult Records",
-      "image": "YOURIMAGEHERE",
-      "dj": "",
-      "tags": ["indie","rock", "pop"],
-      "description": "Proof that alternative rock didn't die after 2008.",
-      "time": "day - 20:00 - 21:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
       "name": "Big Chunes",
       "image": "big_chunes",
       "dj": "",
@@ -55,33 +37,6 @@
       "archive": "http://mixcloud.com/whats_haneping"
     },
     {
-      "name": "Vibe Radio",
-      "image": "YOURIMAGEHERE",
-      "dj": "",
-      "tags": ["chillpop","lofi", "v a p o r"],
-      "description": "Vibe radio is a bi weekly Chillhop and Lo-Fi hip hop music radio that takes place on Mondays from 10:00 PM to 11:00 PM.  The music selection and is carefully crafted to help create a sense of pure chill and serenity. Chill hop often blends jazz elements and samples with hip hop beats and electronic music. Lofi Hip-Hop is characterized by the high-utilization of elements such as introspection and seeks to engage with elements of human emotion. Elements such as high distortion as well as mellow sounds are more prominent features of any lofi hip-hop soundtrack.This music selection is tailored for an Intense study session or for when you need to escape the stress of work. All these great vibes are brought to you by the Salon SIG!!",
-      "time": "MONDAY - 22:00 - 23:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
-      "name": "They dont't call me, Shaff",
-      "image": "they_dont_call_me_shaff",
-      "dj": "shaff",
-      "tags": ["intranquility","despacito", "fado", "all good"],
-      "description": "Music from the lusophone world. Occasional Portuguese poetry readings. Talking about physics and the state of Kentucky. Might throw in some reggaeton if the vibe is right. ",
-      "time": "MONDAY - 23:00AM - 00:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
-      "name": "Politically Screwed",
-      "image": "politically_screwed",
-      "dj": "áron the braun & jhamal the white",
-      "tags": ["talk radio'","bad jokes", "majors", "academics", "varied music", "FoS", "Shut up Kris"],
-      "description": "The revival of Majorly Screwed, the rambly talk-show about Majors at NYUAD, Politically Screwed aims to ramble more towards the topics of politics, both world- and campus- along with our unique taste in music. Your hosts are Jhamal the White and Áron the Braun.",
-      "time": "TUESDAY - 20:00 - 21:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
       "name": "regular expressions",
       "image": "regular_expressions",
       "dj": "période",
@@ -100,33 +55,6 @@
       "archive": "http://mixcloud.com/Howler_Radio"
     },
     {
-      "name": "Repetitive Stress",
-      "image": "repetitive_stress",
-      "dj": "glue banta",
-      "tags": ["experimental","vinyl", "freeform academia"],
-      "description": "Your weekly dose of drone, doom, space, and the angular (possibly annoying) electronix. Jonny Farrow is your host.",
-      "time": "WEDNESDAY - 14:00 - 15:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
-      "name": "Dirbakeh",
-      "image": "dirbakeh",
-      "dj": "",
-      "tags": ["arab","levant", "gulf", "regional music"],
-      "description": "Dirbakeh is here to give the audience a sense of the Middle-Eastern culture through music. We plan on introducing Arab musicians and singers, telling their stories, and playing their songs. We hope that through this show we will be able to feed some people's curiosity and help others that are already familiar with Middle-Eastern culture to connect more deeply with it.",
-      "time": "WEDNESDAY - 19:00 - 20:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
-      "name": "Basik Techno Experience",
-      "image": "basik_techno_experience",
-      "dj": "roberto",
-      "tags": ["techno","edm", "electronica", "house"],
-      "description": "I want you to have the best study session of your life. Tune in to experience the best tracks currently rocking underground clubs in Berlin, Detroit and Chicago. Perfect vibes to study in the library with headphones, or if you feel like dancing, dim the lights and raise the speakers. I want to show people the inner workings of underground EDM. Time to bury Guetta and Avicii. Underground is in the house! All the shows will be remixed live, no pre-recordings and no Spotify playlists. This is the real deal.",
-      "time": "WEDNESDAY - 20:00 - 22:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
       "name": "red light music",
       "image": "red_light_music",
       "dj": "people machine",
@@ -134,24 +62,6 @@
       "description": "Red light music is a bi-weekly exploration/curation of electronic-based music. Each episode's mix is guided by a different musical or personal theme, but all are united by sexy synths, seedy basslines, and stroboscopic intensity. This is music to love and hate to, cook or make love to, grind or gently touch to, and always move to.",
       "time": "WEDNESDAY - 22:00 - 00:00",
       "archive": "https://www.mixcloud.com/dancingwithdionysus/"
-    },
-    {
-      "name": "Things my grandfather told me",
-      "image": "things_my_grandfather_told_me",
-      "dj": "",
-      "tags": ["story","tradition", "heritage", "oral"],
-      "description": "Many of us remember stories our grandparents tell us when we are little, but oftentimes it is only when we are older that we understand the content of these stories fully. Episodes center around a theme, such as World War II or childhood, with perspectives from the grandparents of NYUAD students.",
-      "time": "THURSDAY - 17:00 - 18:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
-    },
-    {
-      "name": "Music for Space Hoppers",
-      "image": "music_for_space_hoppers",
-      "dj": "bernie arthur",
-      "tags": ["great","quality", "best of howler", "space"],
-      "description": "Bernie Arthur brings you an hour of upbeat, Eclectic tunes from all music genres with some smooth, cool rest bites in between. Bernie also showcases new artists, some poetry, special guests and the occasional theme show.",
-      "time": "THURSDAY - 19:00 - 20:00",
-      "archive": "http://www.mixcloud.com/Howler_Radio"
     },
     {
       "name": "Brown Town",
@@ -181,12 +91,30 @@
       "archive": "http://www.mixcloud.com/Howler_Radio"
     },
     {
-      "name": "pensées et palabres",
-      "image": "pensees_et_palabres",
-      "dj": "yero & ifran",
-      "tags": ["francophone","talk", "politics"],
-      "description": "Pensées et Palabres! Howler Radio’s first ever Francophone radio show is underway and reserves you innovative programs, ideal for a casual Saturday night listen and why not, brush up on your rusty French a little bit. Debates on hot topics, laughs, African news, sports, reportages on life at NYUAD, musical re-exploration of past and present styles and literary discussions...Pensées et Palabres’ hosts are brewing a show that has got it all, just for you!",
-      "time": "SATURDAY - 21:00 - 22:00",
+      "name": "right from the ruh",
+      "image": "right_from_the_ruh",
+      "dj": "DJ Bikash",
+      "tags": [""],
+      "description": "Music with no boundaries. Soulful songs of different genres - cultures - languages - countries and times. Flavor of NYUAD with spices coming from the whole world. Music that would lead you to your own self … would let you meandre around the endless void inside you and fill it with peace … rediscover you … rejuvenate you. Music that will start right from your ruh (soul) and end right there to complete the full cycle of life, love and melody with DJ-Bikash.",
+      "time": "MONDAY - 20:00 - 21:00",
+      "archive": ""
+    },
+    {
+      "name": "metal 101",
+      "image": "metal_101",
+      "dj": "adnan and majed",
+      "tags": [""],
+      "description": "",
+      "time": "WEDNESDAY - 19:00 - 20:00",
+      "archive": ""
+    },
+    {
+      "name": "italodance",
+      "image": "italodance",
+      "dj": "andrea",
+      "tags": [""],
+      "description": "Italodance is a genre of Eurodance music that reached its peak of fame in the late 90’s early 2000’s. Italo dance is characterized by synthesizer-riffs, vocals modified with vocoders with catchy and simple choruses and typically a bass with a 'metallic' sound often referred to as \"Tuba -Bass\". Yes...you are right….I just picked up a definition from wikipedia. You know why? Because for me Italodance is simply music that makes me wanna dance and have fun. So whether you are in your dorm, or in the gym, or even out of campus, and you feel like letting loose and have some fun, tune in and enjoy!",
+      "time": "TUESDAY - 19:00 - 20:00",
       "archive": ""
     }
   ]
